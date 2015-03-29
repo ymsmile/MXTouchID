@@ -14,6 +14,7 @@
 		F31C3E011AC7AF3E00F78A71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31C3E001AC7AF3E00F78A71 /* Images.xcassets */; };
 		F31C3E041AC7AF3E00F78A71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31C3E021AC7AF3E00F78A71 /* LaunchScreen.xib */; };
 		F31C3E101AC7AF3E00F78A71 /* MXTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C3E0F1AC7AF3E00F78A71 /* MXTouchIDTests.m */; };
+		F31C3E1B1AC7AF4D00F78A71 /* MXTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C3E1A1AC7AF4D00F78A71 /* MXTouchID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F31C3E091AC7AF3E00F78A71 /* MXTouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXTouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C3E0E1AC7AF3E00F78A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31C3E0F1AC7AF3E00F78A71 /* MXTouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTouchIDTests.m; sourceTree = "<group>"; };
+		F31C3E191AC7AF4D00F78A71 /* MXTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTouchID.h; sourceTree = "<group>"; };
+		F31C3E1A1AC7AF4D00F78A71 /* MXTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTouchID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		F31C3DF21AC7AF3E00F78A71 /* MXTouchID */ = {
 			isa = PBXGroup;
 			children = (
+				F31C3E1C1AC7AF5000F78A71 /* TouchID */,
 				F31C3DF71AC7AF3E00F78A71 /* AppDelegate.h */,
 				F31C3DF81AC7AF3E00F78A71 /* AppDelegate.m */,
 				F31C3DFA1AC7AF3E00F78A71 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				F31C3E0E1AC7AF3E00F78A71 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F31C3E1C1AC7AF5000F78A71 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				F31C3E191AC7AF4D00F78A71 /* MXTouchID.h */,
+				F31C3E1A1AC7AF4D00F78A71 /* MXTouchID.m */,
+			);
+			name = TouchID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				F31C3DFC1AC7AF3E00F78A71 /* ViewController.m in Sources */,
 				F31C3DF91AC7AF3E00F78A71 /* AppDelegate.m in Sources */,
 				F31C3DF61AC7AF3E00F78A71 /* main.m in Sources */,
+				F31C3E1B1AC7AF4D00F78A71 /* MXTouchID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
